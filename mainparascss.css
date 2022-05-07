@@ -15,16 +15,15 @@ section{
 } */
 /*********************************************************************/ 
 
-body{
+/* body{
     margin:0;
     font-family: 'Raleway', sans-serif;
     background-size: cover;
 
-    /* max-width: 1440px; */
     margin: auto;
-}
+} */
 
-header{
+/* header{
     grid-area: header;
     display: flex;
     flex-direction: row;
@@ -34,9 +33,9 @@ header{
     position: sticky;
     top: 0px;
     color: white; 
-}
+} */
 
-header img{
+/* header img{
     height: 30px;
     padding: 10px;
     transition: all 0.3s ease-in-out;
@@ -45,9 +44,9 @@ header img{
 header img:hover{
     border-radius: 10px;
     background-color: white;
-}
+} */
 
-.header-right{
+/* .header-right{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,12 +62,12 @@ header img:hover{
 
 .header-right-a:hover{
     transform: scale(1.2);
-}
+} */
 
-.btn-outline-success {
+/* .btn-outline-success {
     color: #004225!important;
     border-color: #004225!important;;
-}
+} */
 
 
 
@@ -86,7 +85,7 @@ h1:hover{
     transform: scale(1.1);
 }
 
-
+/* 
 .navbar-brand-style{
     color:#004225!important;
     text-align: center;
@@ -100,9 +99,9 @@ h1:hover{
 
 .navbar-brand-style:hover{
     transform: scale(1.1);
-}
+} */
 
-.header-nav{
+/* .header-nav{
     padding: 50;
     display:flex;
     flex-direction: column;
@@ -128,14 +127,14 @@ h1:hover{
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     transition: all 0.3s ease-in-out;
-}
+} */
 
-.header-nav-a:hover {
+/* .header-nav-a:hover {
     color: #004225;
     font-weight: 600;
-}
+} */
 
-main{
+/* main{
     grid-area: main;
     background-color: white;
     font-family: 'Raleway', sans-serif;
@@ -144,7 +143,7 @@ main{
 
 span{
     font-weight: bold;
-}
+} */
 
 footer{
     grid-area: footer;
@@ -219,7 +218,7 @@ footer div ul{
     display: block;
 }
 
-h2{
+/* h2{
     padding:  0 0 0 0;
     color: black;
 
@@ -239,9 +238,9 @@ h2{
     text-align: left;
     font-weight: bold;
     font-size: 24px;
-}
+} */
 
-.h2-contact{
+/* .h2-contact{
     padding:  0 0 0 0;
     color: #004225;
     text-align: left;
@@ -259,8 +258,8 @@ h2{
     font-weight: bold;
     font-size: 24px;
     padding: 10px;
-}
-
+} */
+/* 
 
 h3{
     color: black;
@@ -294,7 +293,7 @@ h4{
 
 /* ANIMACION A FRASE */
 
-@keyframes movimiento-frase {
+/* @keyframes movimiento-frase {
     0%{
         transform: scale(1.2);
 
@@ -308,16 +307,16 @@ h4{
         transform: scale(1.2);
     }
 
-}
+} */
 
-h4{
+/* h4{
     color: black;
     display: inline-block;
     margin: 10px;
-}
+} */
 
 
-
+/* 
 .texto-empresa{
     text-align: center;
 }
@@ -329,9 +328,9 @@ h4{
     background: #004225;
     color: white;
     height: 50px;
-}
+} */
 
-p{
+/* p{
     padding:10px;
 }
 
@@ -339,27 +338,26 @@ p{
     display: inline-block;
     width: 100vw;
     /* max-width: 1440px; */
-}
+} */
 
 
-
+/* 
 .p-genero{
     color: black;
     display: inline-block;
     padding: 0 20vw;
     font-weight: bold;
-}
+} */
 
-.select-catalogo{
+/* .select-catalogo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid 3px rgb(255, 255, 255);
-    /* max-width: 1440px; */
-}
+} */
 
-.select-gender{
+/* .select-gender{
     background-color: rgb(255, 255, 255);
     border: solid 3px rgb(255, 255, 255);
     display: flex;
@@ -367,27 +365,27 @@ p{
     align-items: center;
     margin: 10px;
     max-width: 700px;
-}
+} */
 
-.select-gender img{
+/* .select-gender img{
     border-radius: 50px;
     width: 40vw;
     border: solid 3px rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     max-width: 600px;
-}
+} */
 
-.copyright{
+/* .copyright{
     text-align: center;
 }
 
 .map{
     height: 250px;
     width: 300px;
-}
+} */
 
-.main-contacto{
+/* .main-contacto{
     display: flex;
 
     flex-direction: column;
@@ -403,9 +401,9 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.contact-botones{
+/* .contact-botones{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -420,8 +418,6 @@ p{
     margin: 10px 10px;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .div-contact ul{
@@ -440,13 +436,13 @@ p{
 .contact-map{
     display: flex;
     justify-content: center;
-}
+} */
 
 
 
 /* Estilo particular a cart.html */
 
-.main-cart{
+/* .main-cart{
     display: grid;
     grid-template-areas: 
     "cart-section1"
@@ -474,8 +470,8 @@ p{
 .cart-section1 p{
     margin: 0;
     padding: 2px;
-}
-
+} */
+/* 
 .cart-product1{
     display: flex;
     margin: 10px;
@@ -529,18 +525,18 @@ p{
 .p-total-value{
     font-weight: bold;
     border-top: solid 2px #004225;
-}
-
+} */
+/* 
 .pagar-button{
     border: solid 2px rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-}
+} */
 
 /* FIN Estilo particular a cart.html */
 
 /* Estilo particular a log-in.html */
-
+/* 
 .log-in-main{
     margin: 10px;
 
@@ -566,11 +562,11 @@ p{
     align-items: center;
     justify-content: center;
 
-}
+} */
 /* FIN: Estilo particular a log-in.html */
 
 /* Estilo particular a women.html y men.html. Se deja las clases con women pero sirve para las 2 paginas*/
-
+/* 
 .main-women{
     margin: 10px 0 0 0;
     grid-area: main-women;
@@ -623,11 +619,9 @@ p{
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
     justify-content: center;
-    /* width: 500px; */
+} */
 
-}
-
-.product-block{
+/* .product-block{
     height: 300px;
     width: 200px;
     background-color: rgb(255, 255, 255);
@@ -648,16 +642,14 @@ p{
 
 .section-products img{
     height: 60%;
-
-    /* border: solid 3px rgb(255, 255, 255); */
 }
 
 .section-products p{
     padding: 0;
     margin: 0;
     border: solid 3px rgb(255, 255, 255);
-}
-
+} */
+/* 
 .size-chart{
     padding: 10px 0 30px 0;
     grid-area: size-chart ;
@@ -675,15 +667,14 @@ p{
 
 .size-gender{
     font-size: 16px;
-}
+} */
 
 /* Estilo tabla */
-.width-80percentage{
+/* .width-80percentage{
     width: 80%;
 }
 
 table{
-    /* width: 1000px; */
     justify-content: center;
     align-items: center;
 }
@@ -710,10 +701,10 @@ td, th {
 
   table td{
       font-size: 14px;
-  }
+  } */
 
 /* ANIMACION A SALE */
-.left-bar-sale{
+/* .left-bar-sale{
     font-weight: 700;
     animation-name: movimiento-sale;
     animation-iteration-count: infinite;
@@ -741,7 +732,7 @@ td, th {
         color: rgb(0, 0, 0);
     }
 
-}
+} */
 
 /* FIN ANIMACION A SALE */
 
@@ -754,7 +745,7 @@ td, th {
 
     /* AGREGO MEDIA QUERIES AL MAIN del INDEX*/
 
-    
+/*     
 
     header img{
         height: 30px;
@@ -778,28 +769,28 @@ td, th {
     .header-nav li{
         margin:10px 10px 10px 10px;
         font-size: 16px;
-    }
+    } */
     
   
     /* AGREGO MEDIA QUERIES AL MAIN del INDEX*/
 
-    .select-catalogo{
+    /* .select-catalogo{
         flex-direction: row;
-    }
+    } */
 
         /* AGREGO MEDIA QUERIES AL Footer*/
 
-    footer{
+    /* footer{
         padding: 10px 10px 10px 10px;
         flex-direction: row;
     }
            
     .contact-data{
         flex-direction: column;
-    }
+    } */
 
         /* AGREGO MEDIA QUERIES AL MAIN DEL CART*/
-    .main-cart{
+    /* .main-cart{
         display: grid;
         grid-template-areas: 
         "cart-section1 cart-aside"
@@ -829,10 +820,10 @@ td, th {
         width: 250px;
         text-align: right;
         border: solid 3px rgb(255, 255, 255);
-    }
+    } */
 
     /* AGREGO MEDIA QUERIES AL MAIN DEL CONTACT.HTML*/
-    .main-contacto{
+    /* .main-contacto{
 
    
         flex-direction: row;
@@ -846,10 +837,10 @@ td, th {
     
     .div-contact{
         margin: 10px 10px 10px 10px;
-    }
+    } */
 
     /* AGREGO MEDIA QUERIES AL MAIN DEL MEN.HTML Y WOMEN.HTML*/
-
+/* 
     .main-women{
         margin: 10px 0 0 0;
         grid-area: main-women;
@@ -867,7 +858,7 @@ td, th {
     }
     
 
-}
+} */
 
 /* @media screen and (min-width:1440px) {
     body{
@@ -875,7 +866,7 @@ td, th {
     }
 } */
 
-
+/* 
 .form-log-in label{
     margin: 5px;
 }
@@ -888,7 +879,7 @@ td, th {
 .form-log-in button{
     margin: 5px;
     background-color: #004225;
-}
+} */
 
 @media screen and (max-width:425px) {
 
