@@ -186,7 +186,16 @@ p{
     flex-direction: row;
     justify-content: center;
     input{
-    margin: 0 10px;
+        color: white;
+        margin: 0 10px;
+        padding: 5px;
+        border: none;
+        border-radius: 10px;
+        background-color: $color-primary;
+        &:hover{
+        border-radius: 10px;
+        background-color:$color-fourth;
+    }
     }
 }
 
@@ -237,6 +246,15 @@ p{
 
     justify-content: center;
     align-items: center;
+    button{
+        border: none;
+        border-radius: 10px;
+        background-color: $color-primary;
+        &:hover{
+        border-radius: 10px;
+        background-color:$color-fourth;
+        }
+    }
 }
 
 .cart-section1{
@@ -309,7 +327,8 @@ p{
 .pagar-button{
     border: solid 2px rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
+    justify-content: center;        
+
 }
 
 //ESTILO PARTICULAR A log-in.html
@@ -335,8 +354,18 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    button{
+        border: none;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            border-radius: 10px;
+            background-color:$color-fourth;
+        }
+    }
 }
+
+
 
 //ESTILO PARTICULAR A women.html Y men.html. SE DEJA LAS CLASES CON WOMEN PERO SIRVE PARA LAS 2 PAGINAS
 
@@ -455,7 +484,7 @@ td, th {
 
   }
   
-  tr:nth-child(even){background-color: #00422592;}
+  tr:nth-child(even){background-color: $color-fourth;}
  
   
   th {
@@ -509,17 +538,6 @@ td, th {
         flex-direction: row;
     }
 
-    /* AGREGO MEDIA QUERIES AL Footer*/
-
-    footer{
-        padding: 10px 10px 10px 10px;
-        flex-direction: row;
-    }
-               
-    .contact-data{
-        flex-direction: column;
-    }
-    
     /* AGREGO MEDIA QUERIES AL MAIN DEL CART*/
     .main-cart{
         display: grid;

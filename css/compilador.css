@@ -14,7 +14,6 @@ body {
   margin: 0;
   font-family: Raleway, sans-serif;
   background-size: cover;
-  /* max-width: 1440px; */
   margin: auto; }
 
 header {
@@ -240,7 +239,15 @@ p {
   flex-direction: row;
   justify-content: center; }
   .contact-botones input {
-    margin: 0 10px; }
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #004225; }
+    .contact-botones input:hover {
+      border-radius: 10px;
+      background-color: #00422592; }
 
 .form-log-in label {
   margin: 5px; }
@@ -275,6 +282,13 @@ p {
   grid-template-areas: "cart-section1" "cart-aside";
   justify-content: center;
   align-items: center; }
+  .main-cart button {
+    border: none;
+    border-radius: 10px;
+    background-color: #004225; }
+    .main-cart button:hover {
+      border-radius: 10px;
+      background-color: #00422592; }
 
 .cart-section1 {
   grid-area: cart-section1;
@@ -351,6 +365,13 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+  .form-log-in button {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out; }
+    .form-log-in button:hover {
+      border-radius: 10px;
+      background-color: #00422592; }
 
 .main-women {
   margin: 10px 0 0 0;
@@ -477,12 +498,6 @@ th {
   /* AGREGO MEDIA QUERIES AL MAIN del INDEX*/
   .select-catalogo {
     flex-direction: row; }
-  /* AGREGO MEDIA QUERIES AL Footer*/
-  footer {
-    padding: 10px 10px 10px 10px;
-    flex-direction: row; }
-  .contact-data {
-    flex-direction: column; }
   /* AGREGO MEDIA QUERIES AL MAIN DEL CART*/
   .main-cart {
     display: grid;
@@ -519,3 +534,80 @@ th {
     grid-template-areas: "h2 h2" "left-bar section-products" "size-chart size-chart"; }
   .section-products {
     width: auto; } }
+
+footer {
+  grid-area: footer;
+  background-color: #abb1b8;
+  padding: 10px 10px 10px 10px;
+  margin: 0 0 0 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+  footer img {
+    height: 30px; }
+  footer ul {
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    display: block; }
+
+.social-icons li {
+  margin: 0 10px;
+  align-items: center; }
+
+.footer-contact {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  .footer-contact h4 {
+    text-align: center; }
+
+.contact-data {
+  display: flex;
+  flex-direction: row; }
+  .contact-data li {
+    padding: 0px 5px 0px 5px; }
+
+.company-name {
+  color: #004225;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 25px;
+  vertical-align: center; }
+
+.social-icons {
+  margin: 0;
+  padding: 5px 5px;
+  display: inline-block; }
+  .social-icons li {
+    margin: 0 10px;
+    align-items: center;
+    display: inline-block; }
+
+/* ********************************** */
+/* AGREGO MEDIA QUERIES A footer.html*/
+/* ********************************** */
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 10px 10px 10px 10px;
+    flex-direction: row; }
+  .contact-data {
+    flex-direction: column; } }
+
+@media screen and (max-width: 425px) {
+  .footer-contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .footer-contact ul li {
+    display: flex;
+    justify-content: center; } }
